@@ -1,3 +1,10 @@
+.custom-navbar{
+	background:#3EBD64;
+	font-family:Georgia;
+	border: 3px solid black;
+	font-weight:bolder;
+	
+}
 body{
 	text-align:left;
 	font-size:100%;
@@ -58,35 +65,18 @@ h2{
 	
 }
 .contactinfo{
-	display:flex;
+	display:inline-flex;
 	color:black;
 	font-family:Georgia;
 	font-weight:bolder;
 	justify-content: space-around;
+	background:#3EBD64;
 	
 }
-.email{
-	display:flex;
-	flex:1;
-	justify-content:center;
-	align-items:center;
+.img-thumbnail{
 	border: 3px solid black;
-	width:min(400px,90%);
-	border-radius:5px;/*gives curved edge*/
-	margin:10px;
-	background:#3EBD64;
 }
-.number{
-	display:flex;
-	flex:1;
-	justify-content:center;
-	align-items:center;
-	border: 3px solid black;
-	width:min(400px,90%);
-	border-radius:5px;/*gives curved edge*/
-	margin:10px;
-	background:#3EBD64;
-}
+
 .summary{
 	display:flex;
 	flex:1;
@@ -109,7 +99,7 @@ h2{
 	padding:1px 10px;
 	border: 3px solid black;
 	border-radius:5px;
-	margin:10px;
+	margin:10px auto;
 	width:min(500px,90%); /* this allows reponsive design, on a big screen its no wider than XXpx but on small screen 90% of screen width*/
 	
 }
@@ -117,7 +107,7 @@ h2{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin:10px;
+	margin:10px auto;
 	padding:5px;
 	border: 3px solid black;
 	border-radius:5px;
@@ -137,31 +127,14 @@ h2{
 	flex:1;
 	flex-direction:column;
 	padding:1px 10px;
-	border: 3px solid black;
-	border-radius:5px;
 	background:#3EBD64;
 	width:min(400px,90%);
 }
-.col2{
+.row{
 	display:flex;
-	flex:1;
-	flex-direction:column;
-	padding:1px 10px;
-	border: 3px solid black;
-	border-radius:5px;
-	background:#3EBD64;
-	width:min(400px,90%);
+	gap:20px;
 }
-.col3{
-	display:flex;
-	flex:1;
-	flex-direction:column;
-	padding:1px 10px;
-	border: 3px solid black;
-	border-radius:5px;
-	background:#3EBD64;
-	width:min(400px,90%);
-}
+
 .skills{
 	display:flex;
 	width:min(400px,90%);
@@ -187,23 +160,6 @@ h2{
 	border-radius:5px;/*gives curved edge*/
 	margin:25px;
 	background:#3EBD64;
-}
-.url{
-   height: 200px;
-   width: min(600px, 90%);
-   margin: 25px auto;             /* centers the box horizontally */
-   display: flex;                 /* enables side-by-side layout */
-   gap:150px;/* space between links and image */
-   align-items: center;           /* vertically centers both */
-   background: #3EBD64;
-   border: 3px solid black;
-   border-radius: 5px;
-   padding: 15px;
-}
-.links{
-	 display: flex;
-     flex-direction: column;
-     gap:1px;
 }
 img{
 	width: 150px;
