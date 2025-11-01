@@ -1,0 +1,168 @@
+.custom-navbar{
+	background:#3EBD64;
+	font-family:Georgia;
+	border: 3px solid black;
+	font-weight:bolder;
+	
+}
+body{
+	text-align:left;
+	font-size:100%;
+	background-color:#C8F5D5;
+	height:100%;
+	margin:0;
+
+}
+
+p{
+	color:black;
+	font-family:Helvetica;
+
+}
+h1{
+	color:black;
+	font-family:Georgia;
+	font-weight:bolder;
+	text-align:center;
+	margin:0;
+	
+}
+h3{
+	color:black;
+	font-family:Georgia;
+	font-weight:normal;
+	margin:0;
+	text-align:center;
+	margin-bottom:10px;
+}
+h2{
+	color:black;
+	font-family:Georgia;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+
+
+
+.container-1{
+	display:flex;
+	width:min(400px,90%);
+	margin:0 auto;
+	/*centres the entire container horizontally*/
+	background:#3EBD64;
+	padding:5px;
+	border-radius:5px;
+	border: 3px solid black;
+	
+}
+.titlebox{
+	font-style:italic;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:0;
+	padding:5px;
+	
+}
+.contactinfo{
+	display:inline-flex;
+	color:black;
+	font-family:Georgia;
+	font-weight:bolder;
+	justify-content: space-around;
+	background:#3EBD64;
+	
+}
+.img-thumbnail{
+	border: 3px solid black;
+}
+
+.summary{
+	display:flex;
+	flex:1;
+	background:#3EBD64;
+	padding:1px 20px;
+	border: 3px solid black;
+	border-radius:5px;
+	margin:10px;
+
+}
+@media(max-width:400px){
+	.summary{
+		width:90%;
+	}
+}
+.education{
+	display:flex;
+	flex:1;
+	background:#3EBD64;
+	padding:1px 10px;
+	border: 3px solid black;
+	border-radius:5px;
+	margin:10px auto;
+	width:min(500px,90%); /* this allows reponsive design, on a big screen its no wider than XXpx but on small screen 90% of screen width*/
+	
+}
+.experienceTitle{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:10px auto;
+	padding:5px;
+	border: 3px solid black;
+	border-radius:5px;
+	width:min(400px,90%);
+	background:#3EBD64;
+}
+.experience{
+	display:flex;
+	border-radius:5px;
+	justify-content:center;
+	align-items:center;
+	background:#3EBD64;
+	
+}
+.col1{
+	display:flex;
+	flex:1;
+	flex-direction:column;
+	padding:1px 10px;
+	background:#3EBD64;
+	width:min(400px,90%);
+}
+.row{
+	display:flex;
+	gap:20px;
+}
+
+.skills{
+	display:flex;
+	width:min(400px,90%);
+	margin:10px auto;
+	/*centres the entire container horizontally*/
+	background:#3EBD64;
+	padding:5px;
+	border-radius:5px;
+	border: 3px solid black;
+	flex-direction:column;
+	height:300px;
+	width:400px;
+}
+.skillslist{
+	
+	height:100vh;
+	margin-bottom:10px;
+	display:flex;
+	flex:1;
+	justify-content:center;
+	align-items:center;
+	width:min(600px,90%);
+	border-radius:5px;/*gives curved edge*/
+	margin:25px;
+	background:#3EBD64;
+}
+img{
+	width: 150px;
+    height: auto;
+    border-radius: 6px;
+}
