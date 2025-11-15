@@ -1,0 +1,48 @@
+.Title{
+	font-family: arial, sans-serif;
+    display:block;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.moves{
+	font-family: arial, sans-serif;
+    display:block;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 50px;
+    width: fit-content;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+label{
+	display:block;
+	margin-top:10px;
+	font-family:cursive;
+}
+button{
+	width:100%;
+	margin-top:15px;
+	padding:8px;
+	background-color:black;
+	color:white;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;	
+}
+body{
+	background-color:#F2F2F2;
+}
+.result{
+	font-family: arial, sans-serif;
+    display:block;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 50px;
+    width: fit-content;
+	margin:0 auto;
+	margin-bottom:20px;
+}
